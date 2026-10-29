@@ -1,0 +1,41 @@
+name: flutter_application_1
+description: "Mzansi Silver"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  video_player: ^2.14.0
+  firebase_core: 4.13.0
+  cloud_firestore: ^6.8.0
+  firebase_auth: ^6.5.7
+  http: ^1.5.0
+  firebase_messaging: 16.5.0
+  intl: ^0.20.3
+  unity_levelplay_mediation: ^9.3.0
+  shared_preferences: ^2.5.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/mzansi silver logo.png"
+  adaptive_icon_background: "#080808"
+  adaptive_icon_foreground: "assets/mzansi silver logo.png"
